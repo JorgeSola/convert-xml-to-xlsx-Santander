@@ -10,7 +10,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # WRITE YOUR FILE_NAME HERE <'file_name'>
-xml_name ='data.xml'
+xml_name =''
 
 # This method just read the xml. Within the code we have an other method called clean_text(). 
 # Clean text give the code the correct format before reading.
