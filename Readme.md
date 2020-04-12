@@ -11,13 +11,16 @@ Try with the next executable commands. The last two is only for conda enviroment
 pip install -r requirements.txt  
 ```
 ```
-```
 while read requirement; do conda install --yes $requirement; done < requirements.txt
-```
 ```
 ```
 conda install --yes --file requirements.txt
 ```
+
+##  Create two files inside the main fiel.
+
+The name of the files must be: 'excel_results' and 'xml_files' .
+
 ## Keep the .xml file
 
 Keep your .xml file inside xml_files.
