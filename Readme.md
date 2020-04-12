@@ -17,7 +17,7 @@ while read requirement; do conda install --yes $requirement; done < requirements
 conda install --yes --file requirements.txt
 ```
 
-##  Create two files inside the main fiel.
+##  Create two files inside the main file.
 
 The name of the files must be: 'excel_results' and 'xml_files' .
 
