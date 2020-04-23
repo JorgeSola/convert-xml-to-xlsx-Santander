@@ -36,3 +36,10 @@ Write in your terminal the next command.
 python main.py
 ```
 You'll have the new tables in excel_results.
+
+## Main.exe 
+
+You have to create a file called 'xml_files' in the same directory where you save the .exe .
+Then, you must open your terminal and go to the directory where you have saved the .exe .
+
+Then, write the next command: main --name-xml <name of you xml>.xml .
